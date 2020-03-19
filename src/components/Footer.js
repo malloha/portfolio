@@ -5,9 +5,9 @@ import { GoMail } from "react-icons/go"
 function Footer() {
   return (
     <div className="footer">
-      <FaGithub />
-      <FaLinkedin />
-      <GoMail />
+      <FaGithub className="icon" />
+      <FaLinkedin className="icon" />
+      <GoMail className="icon" />
 
     </div>
   );
