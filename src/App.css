@@ -12,7 +12,7 @@
 .back{
   background-image: url('https://i.imgur.com/YSsiOLy.jpg');
   background-position: absolute;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%
