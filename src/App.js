@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import './App.css';
 import Profile from "./components/Profile"
 import Project from "./components/Project"
-import Footer from "./components/Footer"
+import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Technologies from "./components/Technologies"
+import Footer from "./components/Footer"
+
 
 
 class App extends Component {
@@ -20,6 +22,7 @@ class App extends Component {
           </div>
           <Project />
           <Technologies />
+          <Contact />
           <Footer />
         </div>
       </div>

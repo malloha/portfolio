@@ -1,15 +1,11 @@
 import React from 'react';
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { GoMail } from "react-icons/go"
+
 
 function Footer() {
   return (
-    <div className="footer">
-      <FaGithub className="icon" />
-      <FaLinkedin className="icon" />
-      <GoMail className="icon" />
-
-    </div>
+    <div className="foot">
+      	<p>&copy; Maleeha Hasan 2020</p>
+    </div >
   );
 }
 

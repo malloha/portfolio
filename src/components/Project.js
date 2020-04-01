@@ -1,18 +1,17 @@
 import React from 'react';
-// import image01 from '../assets/ReactIcon.jpeg'
-// import image02 from '../assets/javascriptIcon.png'
-
+import { FaGithub } from "react-icons/fa";
+import { FiGlobe } from "react-icons/fi"
 
 
 function Project() {
   return (
     <div className="">
-      <h1 className="">Portfolio</h1>
+      <div className="heading"><h1>Portfolio</h1></div>
       <div className="projects-wrapper">
 
         <div className="individual-project">
           <a href="http://followmeto.surge.sh/">
-            <img src="https://i.imgur.com/ImIQRuq.png?1" alt="app"></img>
+            <img src="https://i.imgur.com/UMPGN3k.png" alt="app"></img>
           </a>
           <div className="project-description">
             <h1>Follow Me To</h1>
@@ -24,6 +23,11 @@ function Project() {
               <li>CSS/HTML</li>
               <li>Git</li>
             </div>
+            <h2>Links</h2>
+            <div className="links">
+              <a href="https://github.com/malloha/project_1"><FaGithub className="icon" /><h6>Github</h6></a>
+              <a href="http://followmeto.surge.sh/"><FiGlobe className="icon" /><h6>Live Website</h6></a>
+            </div>
           </div>
 
         </div>
@@ -34,11 +38,19 @@ function Project() {
             <p>My Fitness Tracker is an App that enables you to track your daily physical activity and nutritional intake by giving you an option to log your Calorie Intake, Water Intake, Weight Tracker and Physical Activity.</p>
             <h2>Technologies </h2>
             <div className="tech">
+
+
               <li>React</li>
               <li>Node.js</li>
               <li>Javascript</li>
               <li>CSS/HTML</li>
               <li>Git</li>
+
+            </div>
+            <h2>Links</h2>
+            <div className="links">
+              <a href="https://github.com/malloha/project_2"><FaGithub className="icon" /><h6>Github</h6></a>
+              <a href="http://my-fitness-tracker.surge.sh/"><FiGlobe className="icon" /><h6>Live Website</h6></a>
             </div>
           </div>
           <div className="project-image-right">
@@ -64,6 +76,13 @@ function Project() {
               <li>Javascript</li>
               <li>CSS/HTML</li>
               <li>Git</li>
+
+            </div>
+            <h2>Links</h2>
+
+            <div className="links">
+              <a href="https://github.com/malloha/evently"><FaGithub className="icon" /><h6>Github</h6></a>
+              <a href="http://eventlynyc.surge.sh/"><FiGlobe className="icon" /><h6>Live Website</h6></a>
             </div>
           </div>
         </div>
@@ -80,6 +99,11 @@ function Project() {
               <li>CSS/HTML</li>
               <li>Git</li>
             </div>
+            <h2>Links</h2>
+            <div className="links">
+              <a href="https://github.com/malloha/cafe-luluc"><FaGithub className="icon" /><h6>Github</h6></a>
+              <a href="hhttp://luluc.surge.sh/"><FiGlobe className="icon" /><h6>Live Website</h6></a>
+            </div>
           </div>
           <div className="project-image-right">
             <a href="http://luluc.surge.sh/">
@@ -87,8 +111,13 @@ function Project() {
             </a>
           </div>
         </div>
+
+
+
+
+
         <div className="individual-project">
-          <a>
+          <a href="https://github.com/malloha/project4">
             <img src="https://i.imgur.com/oNP6jta.png" alt="app"></img></a>
           <div className="project-description">
             <h1>ReserveTable</h1>
@@ -101,6 +130,11 @@ function Project() {
               <li>Javascript</li>
               <li>CSS/HTML</li>
               <li>Git</li>
+            </div>
+            <h2>Links</h2>
+            <div className="links">
+              <a href="https://github.com/malloha"><FaGithub className="icon" /><h6>Github</h6></a>
+              <a href="https://github.com/malloha"><FiGlobe className="icon" /><h6>Live Website</h6></a>
             </div>
           </div>
         </div>

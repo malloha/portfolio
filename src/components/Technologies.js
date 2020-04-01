@@ -2,22 +2,31 @@ import React from 'react';
 function Technologies() {
   return (
     <div className="technologies">
-      <h1>Skills</h1>
-      <ul>
-        <li>Javascript</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Node.js</li>
-        <li>React</li>
+      <div className="heading">
+        <h1>Skills</h1>
+      </div>
+      <div className="horizontal">
+        <ul>
+          <li>Javascript</li>
+          <li>CSS</li>
+          <li>HTML</li>
+          <li>Node.js</li>
 
-        <li>Express</li>
-        <li>Ruby</li>
-        <li>Rails</li>
-        <li>Git</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-      </ul>
+          <li>React</li>
+          <li>Express</li>
+        </ul>
+        <ul>
+          <li>Ruby</li>
+          <li>Rails</li>
+
+          <li>Git</li>
+          <li>PostgreSQL</li>
+          <li>Sequelize</li>
+
+        </ul>
+      </div>
     </div >
+
   );
 }
 
