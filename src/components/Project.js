@@ -39,10 +39,9 @@ function Project() {
             <h2>Technologies </h2>
             <div className="tech">
 
-
+              <li>Javascript</li>
               <li>React</li>
               <li>Node.js</li>
-              <li>Javascript</li>
               <li>CSS/HTML</li>
               <li>Git</li>
 
@@ -70,11 +69,11 @@ function Project() {
             <p>Evently is a platform for creating, finding and sharing events in your local communities in various categories. People can use Evently to find new events happening around them, create events and meet people who have similar passions.</p>
             <h2>Technologies </h2>
             <div className="tech">
-              <li>React</li>
-              <li>Node.js</li>
               <li>Express.js</li>
               <li>Javascript</li>
+              <li>React</li>
               <li>CSS/HTML</li>
+              <li>Node.js</li>
               <li>Git</li>
 
             </div>
@@ -102,7 +101,7 @@ function Project() {
             <h2>Links</h2>
             <div className="links">
               <a href="https://github.com/malloha/cafe-luluc"><FaGithub className="icon" /><h6>Github</h6></a>
-              <a href="hhttp://luluc.surge.sh/"><FiGlobe className="icon" /><h6>Live Website</h6></a>
+              <a href="http://luluc.surge.sh/"><FiGlobe className="icon" /><h6>Live Website</h6></a>
             </div>
           </div>
           <div className="project-image-right">
@@ -124,17 +123,17 @@ function Project() {
             <p>ReserveTable is an online resturant-reservation app that lets you book a reservation at your fav resturant for a specific time slot you want.</p>
             <h2>Technologies </h2>
             <div className="tech">
+              <li>CSS/HTML</li>
               <li>React</li>
-              <li>Node.js</li>
               <li>Ruby on Rails</li>
               <li>Javascript</li>
-              <li>CSS/HTML</li>
+              <li>Node.js</li>
               <li>Git</li>
             </div>
             <h2>Links</h2>
             <div className="links">
               <a href="https://github.com/malloha"><FaGithub className="icon" /><h6>Github</h6></a>
-              <a href="https://github.com/malloha"><FiGlobe className="icon" /><h6>Live Website</h6></a>
+              {/* <a href="https://github.com/malloha"><FiGlobe className="icon" /><h6>Live Website</h6></a> */}
             </div>
           </div>
         </div>
