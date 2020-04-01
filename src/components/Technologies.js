@@ -5,7 +5,7 @@ function Technologies() {
       <div className="heading">
         <h1>Skills</h1>
       </div>
-      <div className="horizontal">
+      <div className="skills">
         <ul>
           <li>Javascript</li>
           <li>CSS</li>

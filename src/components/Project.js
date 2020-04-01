@@ -32,7 +32,7 @@ function Project() {
 
         </div>
         <div className="individual-project">
-          <div className="project-description-right">
+          <div className="project-description">
             <h1>MyFitnessTracker</h1>
 
             <p>My Fitness Tracker is an App that enables you to track your daily physical activity and nutritional intake by giving you an option to log your Calorie Intake, Water Intake, Weight Tracker and Physical Activity.</p>
@@ -88,7 +88,7 @@ function Project() {
 
 
         <div className="individual-project">
-          <div className="project-description-right">
+          <div className="project-description">
             <h1>Cafe Luluc Website</h1>
             <p>A colloboration with UX Designers to redesign the website of the Cafe Luluc an exquisite cafe in Brooklyn.</p>
             <h2>Technologies </h2>

@@ -16,7 +16,8 @@
   width: 100%
 }
 .name{
-  font-size: 5vh;
+  font-size: 9vh;
+  text-shadow: 2px 2px #FE4A49;
 }
 .luluc{
   border-top: 1px solid maroon ;
@@ -60,9 +61,6 @@ align-items: center;
 .project-image-right >a> img{
   width: 40vw;
   border: 0.5vw solid white;
-  /* position: relative;
-  left: -1vw;
-  top: 10vh; */
 }
 
 
@@ -85,6 +83,10 @@ background-color: #001131 ;
 padding: 1vh 3vw;
 height: 45vh;
 color: white;
+}
+
+.description>h1{
+  text-shadow: 2px 2px #FE4A49;
 }
 p{
   font-size: 1vw;
@@ -124,9 +126,7 @@ p{
 .project-description>a
 {font-size: 2vw;
 }
-.project-description-right>a
-{font-size: 2vw;
-}
+
 .project-description{
   background-color: #001131 ;
 padding: 0vh 3vw;
@@ -142,25 +142,6 @@ color: white;
   font-size: 3vw;
 
 }
-
-.project-description-right{
-  background-color: #001131;  
-  padding: 0vh 3vw;
-  height: 60vh;
-  width: 50vw;
-  color: white;
-}
-.project-description-right >h1{
-color: #4AD7D1;
-text-shadow: 2px 2px #FE4A49;
-background-color: rgb(255, 255, 255,0.1);
-padding: 1vh 1vw;
-font-size: 3vw;
-}
-.project-description-right >h2{
-  color: #FE4A49;
-  }
-
 .single-icon{
   height: 50px;
   width: auto;
@@ -176,7 +157,7 @@ li{
   margin: 0 2vw;
   font-size: 1.5vw;;
 }
-.footer{
+.contact{
   font-size: 2vw;
   color: white; 
   width:100%;
@@ -221,7 +202,7 @@ li{
   font-size: 1vw;
 }
 h1{
-  color: ;
+
   margin-top: 1vh;
   margin-bottom: 1vh;
 }
@@ -242,23 +223,24 @@ justify-content: center;
   font-size: 2vw;
 }
 
-.vertical{
+.social-icons{
   display: flex;
   flex-direction: row;
   justify-content: center;
    width: 100vw;
-  background-color: #001131;    
+  background-color: #001131; 
+align-content: center;
 }
-.horizontal{
+.skills{
 background-color: #001131;  /* height: 20vh; */
 width: 100%;
 align-self: center;
+
 }
 h6{
   margin-top: 0;
   font-size: 1vw;
 }
-
 a{
   color: white;
 }
@@ -273,9 +255,10 @@ a{
   align-items: center;
   font-size: 2vw;
   color: #FE4A49;
+  text-shadow: 1px 1px #4AD7D1;
 
 }
-.foot{
+.footer{
   height: 10vh;
   background-color:#001131;
   width: 100%;
@@ -284,6 +267,4 @@ a{
   justify-content: center;
   align-items: center;
   margin-top: 5vh;
-
-
 }
