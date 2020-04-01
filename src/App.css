@@ -67,8 +67,9 @@ align-items: center;
 
 
 img:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 0 0 0.2vw 0.1vw #FE4A49;
+  transition: 0.5s;
 
 }
 .icon:hover {
@@ -142,7 +143,6 @@ color: white;
   padding: 1vh 1vw;
   font-size: 3vw;
   box-shadow: 0.5vw 0.5vw #4AD7D1;
-
 }
 
 ul{

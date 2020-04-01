@@ -7,7 +7,7 @@ import { TiDocumentText } from "react-icons/ti"
 function Contact() {
   return (
     <div>
-      <div className="heading">  <h1>Lets Connect!</h1></div>
+      <div className="heading">  <h1>Let's Connect!</h1></div>
       <div className="contact">
         <div className="social-icons">
           <a href="https://github.com/malloha"><FaGithub className="icon" /><h6>GitHub</h6></a>
