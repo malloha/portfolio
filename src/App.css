@@ -280,15 +280,14 @@ h3{
   width: 80vw;
 }
 .description{
-  height: 20vh;
+  height: 100%;
 }
   .description>p{
 padding-left: 1vw;
-  font-size: 2vw;
+  font-size: 1.75vw;
 }
 .description>h1{
-  
-font-size: 5vw;
+font-size: 4vw;
 text-shadow: 0.4vw 0.4vw #FE4A49;
 }
 
@@ -309,6 +308,7 @@ text-shadow: 0.4vw 0.4vw #FE4A49;
   flex-direction: column;
   justify-content: center;
   border: 1vw solid #FE4A49;
+  height: 100%;
 }
 p{
   font-size: 2.5vw;
@@ -331,6 +331,9 @@ li{
   text-shadow: 0.3vw 0.3vw #FE4A49;
   font-size: 5vw;
   
+}
+.project-description{
+  height: 100%
 }
 .tech>li{
   font-size: 2vw;
