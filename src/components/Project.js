@@ -132,7 +132,7 @@ function Project() {
             </div>
             <h2>Links</h2>
             <div className="links">
-              <a href="https://github.com/malloha"><FaGithub className="icon" /><h6>Github</h6></a>
+              <a href="https://github.com/malloha/project4"><FaGithub className="icon" /><h6>Github</h6></a>
               {/* <a href="https://github.com/malloha"><FiGlobe className="icon" /><h6>Live Website</h6></a> */}
             </div>
           </div>
