@@ -35,7 +35,7 @@ function Project() {
           <div className="project-description">
             <h1>MyFitnessTracker</h1>
 
-            <p>My Fitness Tracker is an App that enables you to track your daily physical activity and nutritional intake by giving you an option to log your Calorie Intake, Water Intake, Weight Tracker and Physical Activity.</p>
+            <p>My Fitness Tracker is an App that enables you to track your daily physical activity, weight and nutritional intake by giving you an option to log your calorie intake & water intake.</p>
             <h2>Technologies </h2>
             <div className="tech">
 
